@@ -1,0 +1,20 @@
+import random
+
+a = []
+
+
+for i in range(5):
+  b = random.randint(0,15)
+  a.append(b)
+print('lista original',a)
+
+
+for _ in range(3):
+  c = random.randint(0,15)
+  if c in a:
+    a.remove(c)
+    print(c, "removido da lista.")
+  else:
+    print(c, "não está na lista.")
+  print("Lista atualizada:", a)
+  
