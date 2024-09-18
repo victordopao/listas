@@ -1,0 +1,20 @@
+import random
+
+a = []
+b = []
+c = []
+
+lb = random.randint(1, 5)
+for i in range(lb):
+  lb = random.randint(1, 10)
+  b.append(lb)
+  
+lc = random.randint(1, 5)
+for i in range(lc):
+  lc = random.randint(1, 10)
+  c.append(lc)
+
+a.append(b)
+a.append(c)
+print(a)
+
