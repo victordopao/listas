@@ -1,0 +1,19 @@
+import random
+
+a = []
+f = [1,2,0]
+contador = 0
+
+while True:
+  a=random.sample(range(0,3),3)
+  print('lista 1',f)
+  print('lista 2',a)
+  if a == f:
+    print("par")
+    contador += 1
+    break
+  else:
+    print("impar")
+    contador += 1
+
+print("valor do contador é",contador)
