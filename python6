@@ -1,0 +1,16 @@
+pai = []
+
+for i in range(5):
+  nome = input(f"Digite o nome do cliente {i+1}: ")
+  cep = input(f"Digite o CEP do cliente{i+1}: ")
+  telefone = input(f"Digite o telefone do cliente{i+1}: ")
+  rg = input(f"Digite o RG do cliente {i+1}: ")
+  filho = {
+    "nome": nome,
+    "cep": cep,
+    "telefone": telefone,
+    "rg": rg
+  }
+  pai.append(filho)
+
+print(pai)
